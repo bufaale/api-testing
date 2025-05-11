@@ -1,0 +1,42 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Eclipse / IntelliJ / VSCode
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.iws
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Serenity Reports
+target/
+.serenity/
+
+# Cucumber Reports
+cucumber-report/
+
+# Test Output
+test-output/
+out/
+
+# Coverage / CI
+*.exec
+coverage-report/
+jacoco.exec
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*~

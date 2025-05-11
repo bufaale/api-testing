@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'io.cucumber:cucumber-java:7.14.0'
+    testImplementation 'io.cucumber:cucumber-junit:7.14.0'
+    testImplementation 'net.serenity-bdd:serenity-core:4.2.22'
+    testImplementation 'net.serenity-bdd:serenity-junit:4.2.22'
+    testImplementation 'net.serenity-bdd:serenity-cucumber:4.2.22' // ✅ adapter correcto
+    testImplementation 'net.serenity-bdd:serenity-rest-assured:3.7.0' // ✅ si es necesario
+    implementation 'net.serenity-bdd:serenity-screenplay:4.2.22'
+    implementation 'net.serenity-bdd:serenity-screenplay-rest:4.2.22' // ✅ OnlineCast y Task REST
+    testImplementation 'org.junit.vintage:junit-vintage-engine:5.9.3'
+
+    testImplementation 'org.json:json:20240303'
+}
+

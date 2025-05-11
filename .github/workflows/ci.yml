@@ -30,8 +30,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-
 
-      - name: 🚀 Run tests
-        run: ./gradlew clean test
+      - name: Run tests
+        run: |
+          chmod +x gradlew
+          ./gradlew clean test
 
       - name: 📁 Upload Serenity Report
         if: always()

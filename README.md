@@ -1,5 +1,8 @@
 # 🧪 JSON-Driven API Test Automation Framework
 
+![Java CI](https://github.com/bufaale/api-testing/actions/workflows/ci.yml/badge.svg)
+
+
 Este proyecto demuestra cómo diseñar un framework de automatización de pruebas de API profesional utilizando:
 
 - **Serenity BDD + Screenplay Pattern**
